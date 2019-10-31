@@ -1,0 +1,208 @@
+.headP{
+    width: 100%;
+    //height: 20.4rem;
+    height: .8rem;
+    background:rgba(44,194,153,1);
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    .headInfo-small{
+        display: none;
+    }
+    .headInfo {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12rem;
+        height: 100%;
+        line-height: .36rem;
+        font-size: 0.2rem;
+        .logo {
+            position: relative;
+            display: flex;
+            width: 30%;
+            align-items: center;
+            .logoDiv{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                .logoImg {
+                    display: flex;
+                    align-items: center;
+                    width: 1.64rem;
+                    height: .46rem;
+                    text-align: right;
+                    padding-right: 0.01rem;
+                }
+            }
+        }
+
+        .chooseType {
+            position: relative;
+            display: flex;
+            width: 55%;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+
+            .choose1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1.2rem;
+                height: .6rem;
+                font-size:.2rem;
+                font-family:Source Han Sans SC;
+                font-weight:400;
+                color:rgba(44,194,153,1);
+                line-height:.22rem;
+                background:rgba(255,255,255,1);
+                border-radius:.05rem;
+                cursor: pointer;
+            }
+
+            .choose2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1.2rem;
+                height: .6rem;
+                padding-left: 0.1rem;
+                cursor: pointer;
+                font-weight: 400;
+                text-decoration: none;
+                color:rgba(255,255,255,1);
+            }
+            .activeLink{
+                color: rgba(44, 201, 153, 1)
+            }
+        }
+
+        .loginInfo {
+            position: relative;
+            display: flex;
+            width: 15%;
+            justify-content: flex-end;
+            align-items: center;
+            .loginPoto {
+                cursor: pointer;
+                padding-left: .35rem;
+                display: flex;
+                align-items: center;
+                .userImg{
+                    width:.4rem;
+                    height:.4rem;
+                    border-radius:.2rem
+                }
+                .msgPoto {
+                    cursor: pointer;
+                    height: 100%;
+                    width: 50%;
+                    line-height: 50%;
+                }
+            }
+        }
+    }
+    .leftmenu{
+        position: absolute;
+        left: 0;
+        top:0;
+        height: 2.8rem;
+        width: 50%;
+        background:rgba(255,255,255,1); 
+        display: flex;
+        flex-direction: column;
+        z-index: 9;
+        font-size:.3rem;
+        font-family:Source Han Sans SC;
+        font-weight:400;
+        line-height:.36rem;
+        .poto{
+            height: .8rem;
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: solid 0.02rem rgba(242,242,242,1);
+            .left{
+                display: flex;
+                align-items: center;
+                .logoImg{
+                    display: flex;
+                    align-items: center;
+                }
+                div{
+                    color:rgba(44,194,153,1);
+                    padding-left: .2rem;
+                }
+            }
+        }
+        .menuLi{
+            display: flex;
+            align-items: center;
+            padding-left: .5rem;
+            height: 1rem;
+            width: 100%;
+            color:rgba(68,68,68,1);
+            border-bottom: solid 0.02rem rgba(242,242,242,1);
+        }
+    }
+    .children{
+        background:rgba(243, 244, 246, 1);
+    }
+}
+
+@media only screen and (max-width:750px){
+    .headP{
+        .headInfo {
+            display: none;
+        }
+        .headInfo-small{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background:rgba(44,194,153,1);
+            height: .8rem;
+            line-height: .36rem;
+            font-size: 0.2rem;
+            .top{
+                height: .8rem;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .left{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: .8rem;
+                    height: .8rem;
+                    img{
+                        width: .4rem;
+                        height: .4rem;
+                    }
+                }
+                .center{
+                    font-size:.3rem;
+                    font-family:Source Han Sans SC;
+                    font-weight:400;
+                    color:rgba(255,255,255,1);
+                    line-height:.36rem;
+                }
+                .right{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: .8rem;
+                    height: .8rem;
+                    img{
+                        width: .4rem;
+                        height: .4rem;
+                    }
+                }
+            }
+        }
+    }
+}

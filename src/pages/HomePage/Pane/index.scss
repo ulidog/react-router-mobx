@@ -1,0 +1,79 @@
+.pane{
+    position: relative;
+    width: 12rem;
+    height: 100%;
+    display: flex;
+    .left{
+        width: 8.13rem;
+        height: 100%;
+        margin-right: .29rem;
+    }
+    .right{
+        margin-top: .5rem;
+        display: flex;
+        flex-direction: column;
+        width: 3.68rem;
+        height: 6.32rem;
+        .top{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 3rem;
+            background: url("../../../images/img/help_bg.png");
+            padding: .56rem 0 0 .35rem;
+            border-radius: .1rem;
+            .div1{
+                width:1.62rem;
+                height:.35rem;
+                font-size:.36rem;
+                font-family:Source Han Sans SC;
+                font-weight:bold;
+                color:rgba(255,255,255,1);
+                line-height:.24rem;
+                margin-bottom: .3rem;
+            }
+            .div2{
+                width:2.25rem;
+                height:.24rem;
+                font-size:.24rem;
+                font-family:Source Han Sans SC;
+                font-weight:300;
+                color:rgba(255,255,255,1);
+                line-height:.36rem;
+                margin-bottom: .5rem;
+            }
+            .div3{
+                width:1.41rem;
+                height:.34rem;
+                background:rgba(255,233,132,1);
+                border-radius:.17rem;
+                font-size:.18rem;
+                font-family:Source Han Sans SC;
+                font-weight:400;
+                color:rgba(18,129,252,1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .bottom{
+            border-radius: .1rem;
+            padding: .71rem 0 0 2.05rem;
+            display: flex;
+            flex-direction: column;
+            margin-top:.32rem;
+            width: 100%;
+            height: 3rem;
+            background: url("../../../images/img/download_bg.png");
+            .div1{
+                width:1.22rem;
+                height:.23rem;
+                font-size:.24rem;
+                font-family:Source Han Sans SC;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                line-height:.24rem;
+            }
+        }
+    }
+}

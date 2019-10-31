@@ -1,0 +1,117 @@
+.weare{
+    width: 100%;
+    height: 100%;
+    background:rgba(255,255,255,1);
+    font-family:Source Han Sans SC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .lunbo{
+        width: 100%;
+        height: 5rem;
+        .ant-carousel {
+            width: 100%;
+            height: 100%;
+            .slick-slide{
+                text-align: center;
+                height: 5rem;
+                width: 100%;
+                line-height: 160px;
+                background: #364d79;
+                overflow: hidden;
+                .banner{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    width:100%;
+                    height:5rem;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .bannerTip2{
+                        position: absolute;
+                        text-align: center;
+                        bottom:0;
+                        width:100%;
+                        height:.67rem;
+                        font-size:.36rem;
+                        font-weight:600;
+                        color:rgba(255, 255, 255, 1);
+                        line-height:.36rem;
+                    }
+                    
+                }
+            }
+            
+          }
+    }
+    
+    .contain{
+        display: flex;
+        flex-direction: column;
+        width: 9.25rem;
+        align-items: center;
+        .title{
+            height: 1.94rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding:.77rem 0 .51rem 0;
+            font-size:.24rem;
+            font-weight:300;
+            color:rgba(153,153,153,1);
+            line-height:.24rem;
+            .team{
+                font-size:.36rem;
+                font-weight:500;
+                color:rgba(68,68,68,1);
+                line-height:.36rem;
+            }
+        }
+        .teamDes{
+            width: 100%;
+            margin-bottom: .3rem;
+        }
+        .image1{
+            width: 100%;
+            height: 5rem;
+            margin-bottom: 1rem;
+        }
+        .typeLi{
+            width: 100%;
+            height: 1.18rem;
+            padding: .47rem 0 .47rem .31rem;
+            display: flex;
+            font-weight:400;
+            border-radius: .1rem;
+            border: 1px solid rgba(222,222,222,1);
+            margin-bottom: .3rem;
+            .left{
+                width: .9rem;
+                font-size:.24rem;
+                color:rgba(68,68,68,1);
+                line-height:.24rem;
+            }
+            .right{
+                font-size:.18rem;
+                color:rgba(102,102,102,1);
+                line-height:.24rem;
+            }
+        }
+    }
+    .footComp{
+        margin-top: 1.09rem !important;
+    }
+}
+@media only screen and (max-width:750px){
+    .weare{
+        .contain{
+            width: 100%;
+            padding: .1rem .3rem;
+        }
+    }
+}

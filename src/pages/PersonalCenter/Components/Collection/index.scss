@@ -1,0 +1,71 @@
+.collection{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .title{
+        padding: 0.1rem 0.1rem;
+        border-bottom: solid 0.02rem rgba(243,244,246,1);
+        height:.4rem;
+        font-size:.14rem;
+        font-family:Source Han Sans SC;
+        font-weight:500;
+        color:rgba(68,68,68,1);
+        line-height:.21rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contain{
+        width: 100%;
+        height: 100%;
+        padding: 0.1rem 0.1rem;
+        display: block;
+        content: "";
+        overflow: auto;
+        clear: both;
+        .nocollect{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 3rem;
+            height: 3rem;
+        }
+
+    }
+}
+@media only screen and (max-width:750px){
+    .collection{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background: rgba(255, 255, 255, 1);
+        top: 0;
+        left: 0;
+        font-weight:400;
+        color:rgba(68, 68, 68, 1);
+        .title{
+            font-size:.32rem;
+            font-family:Source Han Sans SC;
+            font-weight:bold;
+            height: .8rem;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .contain{
+            .nocollect{
+                height: 6rem;
+                font-size:.3rem;
+                font-family:Source Han Sans SC;
+                font-weight:400;
+                color:rgba(153,153,153,1);
+            }
+        }
+    }
+}

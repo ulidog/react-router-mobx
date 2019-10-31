@@ -1,0 +1,119 @@
+.personCenter_h5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .title_P{
+        height: .8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            display: flex;
+            align-items: center;
+            .logoImg{
+                display: flex;
+                align-items: center;
+            }
+            .logo{
+                display: flex;
+                align-items: center;
+            }
+            div{
+                padding-left: .1rem;
+                font-size:.3rem;
+                font-family:Source Han Sans SC;
+                font-weight:400;
+                color:rgba(44,194,153,1);
+            }
+        }
+    }
+    .login_poto{
+        width:100%;
+        height:3.4rem;
+        background:rgba(44,201,153,1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div{
+            font-size:.30rem;
+            font-family:Source Han Sans SC;
+            font-weight:400;
+            color:rgba(255,254,254,1);
+            line-height:.36rem;
+        }
+        .userImg{
+            display: flex;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: .75rem;
+        }
+        textarea{
+            background: rgba(44,201,153,1);
+            color:white;
+            width: 1.5rem;
+            outline: none;
+            border: none;
+            resize:none;
+            height: .5rem;
+            line-height: .35rem;
+            overflow:hidden;
+        }
+        .son_info{
+            display: flex;
+            height: .5rem;
+            align-items: center;
+            button{
+                background: rgba(44,201,153,1);
+                cursor: pointer;
+                height:100%rem;
+                border-radius:.25rem;
+                border:1px solid rgba(151,151,151,1);
+                outline: none;
+                margin-left: .05rem;
+                &:active{ box-shadow: 0.01rem 0.01rem  rgba(151,151,151,1); border:.02rem solid #2cc299; }
+            }
+        }
+    }
+    .person_li{
+        height: 1rem;
+        width:100%;
+        display: flex;
+        align-items: center;
+        padding-left: .2rem;
+        border: solid .01rem rgba(224,224,224,1);
+        div{
+            padding-left: .2rem;
+            font-size:.30rem;
+            font-family:Source Han Sans SC;
+            font-weight:400;
+            color:rgba(68,68,68,1);
+            line-height:.36rem;
+        }
+        img{
+            width: .34rem;
+            height: .34rem;
+        }
+    }
+    .btn_p{
+        width:100%;
+        height:1rem;
+        display: flex;
+        justify-content: center;
+        margin-top:1.57rem;
+        .btn{
+            width: 6.9rem;
+            height: 100%;
+            border:none;
+            border-radius:.1rem;
+            background:rgba(44,194,153,1);
+            font-size:.36rem;
+            font-family:Source Han Sans SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            outline: none;
+            &:active{ box-shadow: 0.01rem 0.01rem  rgba(151,151,151,1); border:.02rem solid #2cc299; }
+        }
+    }
+}

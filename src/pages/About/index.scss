@@ -1,0 +1,393 @@
+.about{
+    width: 100%;
+    height: 100%;
+    .part1{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        background:linear-gradient(131deg, rgba(65, 229, 180, 0.08) 0%, rgba(53, 123, 213, 0.08) 46%, rgba(40, 195, 212, 0.08) 100%);
+        .left{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 2.5rem;
+            padding-right: 1%;
+            font-family:Source Han Sans SC;
+            color:rgba(44, 201, 153, 1);
+            :first-child{
+                font-size:.48rem;
+                font-weight:500;
+                line-height:.67rem;
+            }
+            p:nth-child(2){
+                font-size: .24rem;
+            }
+            .links {
+                width: 60%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: .2rem;
+                height: .5rem;
+                img{
+                    width: 1.76rem;
+                    height: .49rem;
+                    margin-right: .2rem;
+                }
+            }
+            p{
+                margin: .05rem 0;
+                width: 60%;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            width: 50%;
+            height: 100%;
+            .image{
+                padding-top: .5rem;
+                width: 3.54rem;
+                height: 6rem;
+            }
+        }
+    }
+    .part2{
+        display: flex;
+        width: 100%;
+        height: 7rem;
+        background:linear-gradient(131deg, rgba(65, 229, 180, 1) 0%, rgba(40, 195, 212, 1) 100%);
+        .left{
+            width: 50%;
+            height: 100%;
+            text-align: right;
+            display: block;
+            div{
+                
+                width:100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-end;
+                height: 100%;
+                .image {
+                    padding-top: .5rem;
+                    width: 4rem;
+                    height: 5.5rem;
+                }
+            }
+        }
+        .right{
+            width: 25%;
+            margin-top: 2.5rem;
+            font-size:.24rem;
+            font-family:Source Han Sans SC;
+            font-weight:500;
+            color:rgba(255, 255, 255, 1);
+            line-height:.33rem;
+            .big{
+                font-size:.18rem;
+                font-weight:500;
+            }
+            .small{
+                font-size:.16rem;
+                font-weight:400;
+            }
+            div{
+                margin: .2rem 0;
+            }
+        }
+    }
+    .part3{
+        width: 100%;
+        height: 7rem;
+        background:linear-gradient(131deg, rgba(65, 229, 180, 0.08) 0%, rgba(53, 123, 213, 0.08) 46%, rgba(40, 195, 212, 0.08) 100%);
+        display: flex;
+
+        .right {
+            width: 50%;
+            height: 100%;
+            text-align: left;
+
+            .image {
+                padding-top: .5rem;
+                width: 4rem;
+                height: 5.5rem;
+            }
+        }
+
+        .left {
+            width: 50%;
+            margin-top: 2.5rem;
+            font-size: .24rem;
+            font-family: Source Han Sans SC;
+            font-weight: 500;
+            color:rgba(68, 68, 68, 1);
+            line-height: .33rem;
+            display: flex;
+            flex-direction: column;
+            .leftLeft{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-left: 50%;
+            }
+            .big {
+                font-size: .18rem;
+            }
+
+            .small {
+                font-size: .16rem;
+                font-weight: 400;
+            }
+
+            div {
+                margin: .2rem 0;
+            }
+        }
+    }
+    .part6{
+        display: flex;
+        width: 100%;
+        height: 4rem;
+        background:white;
+        .left{
+            width: 50%;
+            height: 100%;
+            text-align: right;
+            display: block;
+            padding-top: 1rem;
+            div{
+                padding-left: 50%;
+                width:50%;
+                display: flex;
+                align-items: flex-start;
+                height: 100%;
+                .image {
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+        }
+        .right{
+            width: 25%;
+            margin-top: 1rem;
+            font-size:.24rem;
+            font-family:Source Han Sans SC;
+            font-weight:500;
+            color:rgba(68,68,68,1);
+            line-height:.33rem;
+            .big{
+                font-size:.18rem;
+                font-weight:500;
+            }
+            div{
+                margin: .1rem 0;
+            }
+        }
+    }
+    @media screen and (max-width:750px){
+        .part1{
+            height: 12.5rem;
+            display: flex;
+            flex-direction: column;
+            .left{
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                margin-top: .5rem;
+                :first-child{
+                    font-size:.48rem;
+                    font-weight:bold;
+                    color:rgba(44,194,153,1);
+                }
+                p:nth-child(2){
+                    font-size: .3rem;
+                }
+                .links {
+                    width: auto;
+                    img{
+                        width: 1.8rem;
+                        height: .6rem;
+                        margin-right: .2rem;
+                    }
+                }
+                p{
+                    margin: .05rem 0;
+                    width: auto;
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                .image{
+                    width: 5.06rem;
+                    height: 9.04rem;
+                }
+            }
+        }
+        .part2{
+            flex-direction: column-reverse;
+            height: 13.5rem;
+            .left{
+                width: 100%;
+                height: 9.04rem;
+                display: flex;
+                align-items: center;
+                div{
+                    padding-left: 0;
+                    width:100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    .image {
+                        padding-top: .5rem;
+                        width: 6rem;
+                        height: 7.8rem;
+                    }
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 0rem;
+                font-size:.36rem;
+                font-family:Source Han Sans SC;
+                font-weight:bold;
+                color:rgba(255, 255, 255, 1);
+                line-height:.33rem;
+                padding-left: .5rem;
+                .big{
+                    font-size:.3rem;
+                    font-weight:500;
+                }
+                .small{
+                    font-size:.24rem;
+                    font-weight:400;
+                }
+                div{
+                    margin: .175rem 0;
+                    p{
+                        margin: .1rem 0;
+                    }
+                }
+            }
+        }
+        .part3{
+            width: 100%;
+            height: 13rem;
+            flex-direction: column;
+    
+            .right {
+                width: 100%;
+                height: 9.4rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                .image {
+                    width: 6rem;
+                    height: 8.04rem;
+                }
+            }
+    
+            .left {
+                width: 100%;
+                margin-top: .2rem;
+                font-size: .36rem;
+                font-family:Source Han Sans SC;
+                font-weight: bold;
+                color:rgba(68, 68, 68, 1);
+                line-height: .33rem;
+                display: flex;
+                flex-direction: column;
+                .leftLeft{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    margin-left: 0%;
+                    padding-right: .2rem;
+                }
+                .big {
+                    font-size: .30rem;
+                    font-weight: 500;
+                }
+    
+                .small {
+                    font-size: .24rem;
+                    font-weight: 400;
+                }
+    
+                div {
+                    margin: .175rem 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    p{
+                        margin:.1rem 0;
+                    }
+                }
+            }
+        }
+        .part6{
+            height: 8rem;
+            flex-direction: column-reverse;
+            .left{
+                width: 100%;
+                height: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 0rem;
+                div{
+                    padding-left: 0%;
+                    width:100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    .image {
+                        width: 2.75rem;
+                        height: 2.75rem;
+                    }
+                }
+            }
+            .right{
+                width: 100%;
+                height: 3rem;
+                margin-top: .2rem;
+                font-size:.36rem;
+                font-family:Source Han Sans SC;
+                font-weight:bold;
+                color:rgba(68,68,68,1);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .big{
+                    font-size:.3rem;
+                    font-weight:500;
+                    line-height: .38rem;
+                }
+                div{
+                    width: 72%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin: .175rem 0;
+                }
+            }
+        }
+    }
+}

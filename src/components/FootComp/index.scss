@@ -1,0 +1,130 @@
+.footComp{
+    height: 2.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Source Han Sans SC;
+    font-size: .12rem;
+    background:rgba(255,255,255,1);
+    padding-top: .5rem;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: .17rem;
+    border-top: solid .01rem rgba(224,224,224,1);
+    margin-top:1.5rem;
+    //box-shadow:-.01rem .01rem .02rem .02rem #ccc;
+    .head{
+        width: 40%;
+        height: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid .01rem rgba(224,224,224,1);
+        .rela {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 40%;
+            height: 100%;
+            color:rgba(102,102,102,1);
+            font-size: .14rem;
+            .title {
+                margin-bottom: .3rem;
+                height: .2rem;
+                font-weight: 600;
+                line-height: .2rem;
+                color:rgba(68,68,68,1);
+            }
+            .phone{
+                margin-bottom: .2rem;
+            }
+        }
+
+        .appLink {
+            display: flex;
+            justify-content: flex-end;
+            height: 100%;
+            .linkIn{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+                font-size: .14rem;
+                color:rgba(102,102,102,1);
+                .title {
+                    height: .2rem;
+                    font-weight: 600;
+                    line-height: .2rem;
+                    color:rgba(68,68,68,1);
+                    margin-bottom: .3rem;
+                }
+                .title2{
+                    font-weight: 400;
+                    margin-bottom: .15rem;
+                }
+                div{
+                    display: flex;
+                }
+            }
+        }
+    }
+    .foot{
+        padding-top:.3rem;
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px){
+    .footComp{
+        height: 3.26rem;
+        font-size: .2rem;
+        padding-top: .35rem;
+        line-height: .22rem;
+        .head{
+            width: 100%;
+            height: 1.92rem;
+            .rela {
+                width: 50%;
+                padding-left: .3rem;
+                div {
+                    width: 100%;
+                    margin: 0.1rem 0;
+                }
+                .title {
+                    font-size: .22rem;
+                    height: .2rem;
+                    font-weight: bold;
+                }
+            }
+            
+            .appLink {
+                width: 35%;
+                padding-left: .3rem;
+                div {
+                    width: 100%;
+                    margin-bottom: 0.2rem
+                }
+                .title {
+                    height: .2rem;
+                    font-size: .22rem;
+                    font-weight: bold;
+                    line-height: .2rem;
+                }
+                div{
+                    display: flex;
+                    margin-top:.05rem;
+                }
+            }
+        }
+        .foot{
+            padding-top:.1rem;
+            p{
+                margin: 0.1rem 0;
+            }
+        }
+    }
+}

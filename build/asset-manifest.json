@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0854cca.chunk.css",
+    "main.js": "/static/js/main.ec9ed712.chunk.js",
+    "main.js.map": "/static/js/main.ec9ed712.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.38b32697.js",
+    "runtime-main.js.map": "/static/js/runtime-main.38b32697.js.map",
+    "static/css/2.6b3e3481.chunk.css": "/static/css/2.6b3e3481.chunk.css",
+    "static/js/2.afb976ff.chunk.js": "/static/js/2.afb976ff.chunk.js",
+    "static/js/2.afb976ff.chunk.js.map": "/static/js/2.afb976ff.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cbcad3de912239246a0fc052f2e892c5.js": "/precache-manifest.cbcad3de912239246a0fc052f2e892c5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6b3e3481.chunk.css.map": "/static/css/2.6b3e3481.chunk.css.map",
+    "static/css/main.c0854cca.chunk.css.map": "/static/css/main.c0854cca.chunk.css.map",
+    "static/media/Android_s_download.png": "/static/media/Android_s_download.322d908c.png",
+    "static/media/bg1.png": "/static/media/bg1.5f9e1033.png",
+    "static/media/bg2.png": "/static/media/bg2.b0d4ac95.png",
+    "static/media/index.scss": "/static/media/help_bg.5832019a.png",
+    "static/media/fenzu2.png": "/static/media/fenzu2.18b39ca3.png",
+    "static/media/img.png": "/static/media/img.e4c067c8.png",
+    "static/media/img1.png": "/static/media/img1.88d972a8.png",
+    "static/media/img2.png": "/static/media/img2.a511fc9c.png",
+    "static/media/img3.png": "/static/media/img3.3840c94d.png",
+    "static/media/img4.png": "/static/media/img4.a4833bbb.png",
+    "static/media/ios_s_download.png": "/static/media/ios_s_download.e5ac681f.png",
+    "static/media/pic1.png": "/static/media/pic1.e502b992.png",
+    "static/media/pic2.png": "/static/media/pic2.3f33e09a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38b32697.js",
+    "static/css/2.6b3e3481.chunk.css",
+    "static/js/2.afb976ff.chunk.js",
+    "static/css/main.c0854cca.chunk.css",
+    "static/js/main.ec9ed712.chunk.js"
+  ]
+}

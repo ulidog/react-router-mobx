@@ -1,0 +1,89 @@
+.message{
+    width: 100%;
+    height:.5rem;
+    border-bottom: solid 0.01rem rgba(243,244,246,1);
+    display: flex;
+    font-family:Source Han Sans SC;
+    font-weight: 400;
+    font-size:.14rem;
+    color:rgba(68,68,68,1);
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        div:first-child{
+            width:100%;
+            height:.5rem;
+            font-size:.18rem;
+            font-family:Source Han Sans SC;
+            font-weight:500;
+            line-height:.2rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        div:last-child{
+            width:100%;
+            height:.2rem;
+            line-height:.2rem;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        height: 100%;
+        color:rgba(153,153,153,1);
+        div{
+            width:100%;
+            height:.2rem;
+            line-height:.2rem;
+        }
+    }
+}
+@media screen and (max-width:750px){
+    .message{
+        flex-direction: column-reverse;
+        height: 2.95rem;
+        align-items: center;
+        border:none;
+        .left{
+            padding:.3rem;
+            width: 6.9rem;
+            height: 2.1rem;
+            display: flex;
+            align-content: center;
+            background:rgba(243,244,246,1);
+            border-radius:10px;
+            div{
+                &:first-child{
+                    font-weight:600;
+                    color:rgba(68,68,68,1);
+                    font-size:.32rem;
+                    line-height: .45rem;
+                    margin-bottom: .2rem;
+                }
+                &:last-child{
+                    font-weight:400;
+                    color:rgba(68,68,68,1);
+                    font-size:.28rem;
+                    line-height: .4rem;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            width: 100%;
+            height: .8rem;
+            div{
+                display: flex;
+                justify-content: center;
+                font-size: .28rem;
+                color:rgba(153,153,153,1);
+            }
+        }
+    }
+}

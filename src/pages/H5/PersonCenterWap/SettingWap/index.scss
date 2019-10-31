@@ -1,0 +1,56 @@
+.setting_wap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    display: flex;
+    z-index: 5;
+    background: rgba(255, 255, 255, 1);
+    flex-direction: column;
+    align-items: center;
+    font-family:Source Han Sans SC;
+    font-weight:400;
+    color:rgba(68,68,68,1);
+    .title{
+        width: 100%;
+        height: .88rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 .3rem;
+        border-bottom: solid 1px rgba(239,239,239,1);
+        font-size:.32rem;
+        .left{
+            width: .15rem;
+            height: .15rem;
+            border-top: solid 1px rgba(68,68,68,1);
+            border-left: solid 1px rgba(68,68,68,1);
+            transform: rotate(-45deg)
+        }
+        .cent{
+            font-weight:bold;
+        }
+    }
+    .name_li{
+        display: flex;
+        align-items: center;
+        width: 95%;
+        height: 1.3rem;
+        border-bottom: solid 1px rgba(239,239,239,1);
+        font-size:.3rem;
+        font-weight:400;
+        justify-content: space-between;
+        .arrow{
+            margin-right: .3rem;
+            display: flex;
+            align-items: center;
+            right:  0;
+            width: .15rem;
+            height: .15rem;
+            border-bottom: solid 1px rgba(68,68,68,1);
+            border-right: solid 1px rgba(68,68,68,1);
+            transform: rotate(-45deg)
+        }
+    }
+}

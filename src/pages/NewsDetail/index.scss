@@ -1,0 +1,330 @@
+.newsDetail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgba(243, 244, 246, 1);
+    .curserP{
+        cursor: pointer;
+    }
+    .derit{
+        display: flex;
+        align-items: center;
+        width: 9.9rem;
+        height: .6rem;
+        color:rgba(153,153,153,1);
+        p:last-child{
+            color:rgba(102,102,102,1);
+        }
+    }
+    .contain{
+        .img{
+            width: .3rem;
+            height: .3rem;
+            border-radius: .3rem;
+        }
+        width: 9.9rem;
+        height: 100%;
+        background-color: white;
+        padding: .2rem .3rem .5rem .3rem;
+        font-family:Source Han Sans SC;
+        font-weight:400;
+        color:rgba(68,68,68,1);
+        .containTop{
+            display: flex;
+            width: 100%;
+            height: .75rem;
+            flex-direction: column;
+            .title{
+                height:.4rem;
+                font-size:.28rem;
+                line-height:.40rem;
+            }
+            .containInfo{
+                display: flex;
+                align-items: center;
+                align-content: space-between;
+                font-size:.14rem;
+                line-height:.2rem;
+                .left{
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        margin: 0 .1rem;
+                    }
+                }
+                .right{
+                    width: 50%;
+                    display: flex;
+                    justify-content: flex-end;
+                    .fingerEye{
+                        display: flex;
+                        align-content: center;
+                        p{
+                            margin: auto .1rem;
+                        }
+                    }
+                } 
+            }
+        }
+        .op{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            border-top: solid .015rem  rgba(222,222,222,1);
+            margin:.4rem 0 .1rem 0;
+            padding-top:.2rem;
+            height: .44rem;
+            p{
+                margin: 0 .1rem;
+            }
+            .ppp{
+                height: 100%;
+                border-left: solid .015rem rgba(68,68,68,1);
+                padding: 0 .1rem;
+                margin-left: .2rem; 
+            }
+            .fx{
+                cursor: pointer;
+                display: flex;
+                p{
+                    margin: 0 .1rem;
+                }
+            }
+        }
+        .comment{
+            height: 1.5rem;
+            .textContain{
+                position: relative;
+                width: 100%;
+                height: 1.41rem;
+                .textA{
+                    color: rgba(68,68,68,1);
+                    width: 100%;
+                    height: 1.41rem;
+                    background:rgba(243,244,246,1);
+                    border-radius:.1rem;
+                    outline: none;
+                    padding-left: .1rem;
+                    resize:none;
+                    overflow: hidden;
+                }
+                .publish{
+                    position: absolute;
+                    bottom: 2px;
+                    right: 2px;
+                    display: flex;
+                    font-size: .14rem;
+                    align-items: center;
+                    p{
+                        margin-right: .05rem;
+                    }
+                    button{
+                        width:.64rem;
+                        height:.3rem;
+                        background:rgba(102,102,102,1);
+                        border-radius:.04rem;
+                        color:white;
+                        border: none;
+                    }
+                }
+            }
+            
+        }
+        .reply{
+            padding-top:.5rem;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .level1top{
+                display: flex;
+                align-items: center;
+                .left{
+                    display: flex;
+                    align-items: center;
+                    width: 50%;
+                    display: flex;
+                    p{
+                        padding: 0 .1rem;
+                    }
+                }
+                .fingerEye{
+                    p{
+                        padding: 0 .1rem;
+                    }
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+            }
+            .replyContain{
+                margin-top:.1rem;
+                line-height:.2rem;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                background:rgba(243,244,246,1);
+                border-radius:.1rem;
+                padding: 0.1rem 0 0.1rem .3rem;
+                .comment1{
+                    display: block;
+                    white-space: normal;
+                    line-height: .22rem;
+                    word-break:break-all;
+                }
+            }
+
+        }
+    }
+    .detailFoot{
+        position: fixed;
+        bottom:0;
+        background:rgba(243,244,246,1);
+        display: flex;
+        width: 9.9rem;
+        height: .43rem;
+        align-items: center;
+        opacity:0;
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: flex-start;
+            .footInput{
+                width:4.29rem;
+                height:.3rem;
+                border:1px solid rgba(193,193,193,1);
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
+            .num{
+                margin: 0 .15rem;
+            }
+            .PPP{
+                height: 100%;
+                border-left: solid .02rem rgba(193,193,193,1);
+                padding: 0 .1rem;
+                margin-left: .2rem;
+            }
+            .fx{
+                cursor: pointer;
+                width: 1.2rem;
+                display: flex;
+            }
+        }
+        
+    }
+    .detailFootA{
+        position: fixed;
+        bottom:0;
+        background:rgba(243,244,246,1);
+        display: flex;
+        width: 9.9rem;
+        height: .43rem;
+        align-items: center;
+        opacity:0;
+        animation: showfoot 2s forwards ;
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: flex-start;
+            .footInput{
+                width:4.29rem;
+                height:.3rem;
+                border:1px solid rgba(193,193,193,1);
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
+            .num{
+                margin: 0 .15rem;
+            }
+            .PPP{
+                height: 100%;
+                border-left: solid .02rem rgba(193,193,193,1);
+                padding: 0 .1rem;
+                margin-left: .2rem;
+            }
+            .fx{
+                cursor: pointer;
+                width: 1.2rem;
+                display: flex;
+            }
+        }
+        
+    }
+    @keyframes showfoot {
+        0%{opacity: .2;}
+        50%{opacity: .8;}
+        100%{opacity: 1;}
+    }
+}
+.shareQRCode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .codeTxt {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:750px){
+    .newsDetail{
+        width: 100%;
+        .derit{
+            display: none;
+            width: 100%;
+        }
+        .contain{
+            width: 100%;
+            .containTop{
+                width: 100%;
+            }
+            .comment{
+                .textContain{
+                    .publish{
+                        button{
+                            width: .8rem;
+                        }
+                    }
+                }
+            }
+            .reply{
+                .replyContain{
+                    .comment1{
+                        line-height: .35rem;
+                    }
+                }
+            }
+        }
+        .detailFootA{
+            width: 100%;
+            .right{
+                .fx{
+                    width: .5rem;
+                    p{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .detailFoot{
+            width: 100%;
+            .right{
+                .fx{
+                    p{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,119 @@
+.personer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .title{
+        
+        padding: 0.1rem 0.1rem;
+        border-bottom: solid 0.02rem rgba(243,244,246,1);
+        height:.4rem;
+        font-size:.14rem;
+        font-family:Source Han Sans SC;
+        font-weight:500;
+        color:rgba(68,68,68,1);
+        line-height:.21rem;
+    }
+    .contain{
+        width: 100%;
+        padding: 0.1rem 0.1rem;
+        display: flex;
+        flex-direction: column;
+        .column{
+            width: 100%;
+            display: flex;
+            margin: 0.1rem 0;
+            .leftTitle{
+                width:.96rem;
+                font-size:.14rem;
+                font-family:Source Han Sans SC;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+                line-height:.21rem;
+            }
+            .poto{
+                cursor: pointer;
+                width: 1.08rem;
+                height: 1.08rem;
+            }
+            .name{
+                display: flex;
+                flex-direction: column;
+                width: 1.2rem;
+                input{
+                    width:1rem;
+                    height:.20rem;
+                    font-size:.14rem;
+                    font-family:Source Han Sans SC;
+                    font-weight:500;
+                    color:rgba(68,68,68,1);
+                    line-height:.20rem;
+                    outline: none;
+                    border:none;
+                    background:rgba(243,244,246,1);
+                    cursor: pointer;
+                }
+            }
+            .column2{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                font-size:.14rem;
+                font-family:PingFang-SC-Regular,PingFang-SC;
+                font-weight:400;
+                p{
+                    color:rgba(102,102,102,1);
+                }
+                .column3{
+                    margin-top:.1rem;
+                    display: flex;
+                    p{
+                        font-weight:500;
+                        color:rgba(68,68,68,1);
+                    }
+                    input{
+                        margin-left: .1rem;
+                        width: 4rem;
+                        background:rgba(243,244,246,1);
+                        border-radius:.02rem;
+                        color:rgba(68,68,68,1);
+                        line-height:.20rem;
+                        border: none;
+                    }
+                }
+                .poto{
+                    width: .87rem;
+                    height: .87rem;
+                    background: white;
+                }
+                .baocun{
+                    width:.83rem;
+                    height:.32rem;
+                    color: white;
+                    background:rgba(44,201,153,1);
+                    border-radius:.02rem;
+                    border: none;
+                }
+            }
+            
+        }
+
+    }
+}
+
+@media only screen and (max-width:750px){
+    .personer{
+        position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background: rgba(255, 255, 255, 1);
+    top: 0;
+    left: 0;
+    font-weight:400;
+    color:rgba(68, 68, 68, 1);
+    }
+}

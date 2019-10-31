@@ -1,0 +1,110 @@
+// styles.css
+.checkPanl{
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300;
+    //height: 100%;
+    background: rgba(177, 157, 157, 0.3);
+    .image-code {
+        padding: 10px;
+        user-select: none;
+        box-shadow: 0 2px 10px 0 #333;
+        background :rgba(228, 252, 246, 1)
+    }
+    
+    .image-container {
+        position: relative;
+    }
+    
+    .canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .reload-container {
+        padding: 20px 0;
+    }
+    
+    .reload-wrapper {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .reload-ico {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background: center/cover no-repeat;
+    }
+    
+    .reload-tips {
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .slider-wrpper {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .slider-bar {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+        color: #999;
+        background-color: #ddd;
+    }
+    
+    .slider-button {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background: #fff center/150% 150% no-repeat;
+        box-shadow: 0 2px 10px 0 #333;
+    }
+    
+    /* 提示信息 */
+    .tips-container,
+    .tips-container--active {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+        transition: all 0.25s;
+        background: #fff;
+        border-radius: 5px;
+    
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .tips-container--active {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .tips-ico {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background: center/cover no-repeat;
+    }
+    
+    .tips-text {
+        color: #666;
+    }
+}
+

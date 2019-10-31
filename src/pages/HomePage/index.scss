@@ -1,0 +1,215 @@
+.homeContain {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Source Han Sans SC;
+    background: rgba(255, 255, 255, 1);
+    .raHelp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: .8rem;
+        background: rgba(255, 255, 255, 1);
+
+        .helpTip {
+            width: 50%;
+            height: 0.5rem;
+            font-size: 0.36rem;
+            font-weight: 500;
+            color: rgba(68, 68, 68, 1);
+            line-height: 50px;
+            line-height: .5rem;
+            text-align: right;
+            padding-right: .1rem;
+        }
+
+        .helpLink {
+            width: 50%;
+            height: .37rem;
+            font-size: .24rem;
+            font-weight: 400;
+            color: rgba(102, 102, 102, 1);
+            line-height: .37rem;
+            padding-left: .1rem;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            span{
+                margin-right: .2rem;
+            }
+            .icon{
+                vertical-align: middle;
+            }
+        }
+    }
+    .lunbo{
+        width: 12rem;
+        height: 5rem;
+        
+        margin-top:.4rem;
+        .ant-carousel {
+            width: 100%;
+            height: 100%;
+            .slick-slide{
+                text-align: center;
+                height: 5rem;
+                width: 100%;
+                line-height: 160px;
+                background: #364d79;
+                overflow: hidden;
+                .banner{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    width:100%;
+                    height:5rem;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .bannerTip2{
+                        position: absolute;
+                        text-align: center;
+                        bottom:0;
+                        width:100%;
+                        height:.67rem;
+                        font-size:.36rem;
+                        font-weight:600;
+                        color:rgba(255, 255, 255, 1);
+                        line-height:.36rem;
+                    }
+                    
+                }
+            }
+            
+          }
+    }
+    @media screen and (max-width:750px){
+        .lunbo{
+            width: 100%;
+            margin-top:0;
+        }
+    }
+    .helpDirect{
+        margin-top: 0.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:12rem;
+        height:.98rem;
+        background:rgba(228, 252, 246, 1);
+        border-radius:.57rem;
+        .helpName{
+            padding-left: .57rem;
+            width:23%;
+            height:.5rem;
+            font-size:.36rem;
+            font-weight:600;
+            color:rgba(44, 201, 153, 1);
+            line-height:.5rem;
+        }
+        .helpDes{
+            width:70%;
+            height:.34rem;
+            font-size:.25rem;
+            font-weight:400;
+            color:rgba(44, 201, 153, 1);
+            line-height:.34rem;
+        }
+        @media screen and (max-width:800px){
+            .helpName{
+                width: 40%;
+            }
+        }
+        .phonePoto{
+            margin-right: .57rem;
+            width:.41rem;
+            height:.38rem;
+        }
+    }
+    
+    .newsList{
+        position: relative;
+        width: 12rem;
+        .searchBar{
+            position: absolute;
+            z-index: 10;
+            top:.4rem;
+            right: .8rem;
+            display: block;
+            height: 33px;
+            width: 1.15rem;
+            cursor: pointer;
+            // .searchInput{
+            //     position: absolute;
+            //     vertical-align: middle;
+            //     left: 10px;
+            //     top: 6px;
+            //     width:2rem;
+            //     height:21px;
+            //     font-family:Source Han Sans SC;
+            //     line-height:21px;
+            //     //-webkit-text-fill-color: rgba(153, 153, 153, 1);
+            //     background-color:rgba(243,244,245,1);
+            //     font-size:16px;
+            //     color:rgba(68,68,68,1);
+            //     outline: none;
+            //     border: none;
+            // }
+            .searchIcon{
+                position: absolute;
+                vertical-align: middle;
+                right: .8rem;
+                top:.08rem;
+                height: 21px;
+            }
+            .shousuo{
+                width: .5rem;
+                position: absolute;
+                right: 0rem;
+                top:.08rem;
+                font-size:.24rem;
+                font-family:Source Han Sans SC;
+                font-weight:400;
+                color:rgba(153,153,153,1);
+                line-height:.22rem;
+            }
+        }
+        @media screen and (max-width:800px){
+            .searchBar{
+                display: none;
+            }
+        }
+    }
+    .forpage{
+        width: 12rem;
+    }
+    @media screen and (max-width:750px) {
+        .helpDirect{
+            width:100%
+        }
+        .newsList{
+            width: 100%;
+            font-size: .24rem !important;
+            .ant-tabs-nav-container{
+                
+            }
+        }
+        .forpage{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+    
+    
+    
+}

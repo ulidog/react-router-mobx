@@ -1,0 +1,30 @@
+.loading {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(177, 157, 157, 0.8);
+    top: 0;
+    left: 0;
+    .iconImage{
+        font-size: 5rem;
+        margin: auto;
+        animation-name: loading;
+        animation-duration: 2s;
+        animation-iteration-count: infinite; // infinite 无限循环
+    }
+    @keyframes loading {
+        form {
+            transform: rotate(0turn);
+        }
+
+        to {
+            transform: rotate(1turn);
+        }
+    }
+}
+.loadingNone{
+     position: fixed;
+     display: none;
+}

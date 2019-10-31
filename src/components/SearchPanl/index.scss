@@ -1,0 +1,44 @@
+.search-small{
+    display: none;
+}
+@media only screen and (max-width:750px){
+    .search-small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        background:rgba(44,194,153,1);
+        height: .8rem;
+        width: 100%;
+        .searchBar{
+            width: 6.9rem;
+            height: .64rem;
+            display: flex;
+            align-items: center;
+            background:rgba(243,244,245,1);
+            border-radius:.64rem;
+            margin: .06rem 0 .1rem 0;
+            .searchInput{
+                width:6rem;
+                height:.48rem;
+                font-family:Source Han Sans SC;
+                line-height:.3rem;
+                background-color:rgba(243,244,245,1);
+                font-size:.16rem;
+                color:rgba(68,68,68,1);
+                margin-left: .2rem;
+                outline: none;
+                border: none;
+            }
+            .searchBar{
+                margin-right: .2rem;
+                .searchIcon{
+                    cursor: pointer;
+                    right: 5px;
+                    top:6px;
+                    height: 21px;
+                }
+            }
+        }
+    }
+}

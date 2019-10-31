@@ -1,0 +1,50 @@
+.errorTip {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    opacity:0.5;
+    font-size:.09rem;
+    font-family:Source Han Sans SC;
+    font-weight:400;
+    color:rgba(255,254,254,1);
+    div{
+        display: inline-block;
+        text-align: center;
+        width: 1.2rem;
+        height: .2rem;
+        padding-left: .1rem;
+        line-height: .2rem;
+        border-radius:.1rem;
+        background:rgba(0,0,0,1);
+    }
+}
+.errorTipNone{
+     position: fixed;
+     display: none;
+}
+@media only screen and (max-width:750px){
+    .errorTip{
+        top: 35%;
+        left: 2.25rem;
+        height: .8rem;
+        width: 3rem;
+        border-radius: .4rem;
+        div{
+            display: block;
+            font-size:.3rem;
+            height: 100%;
+            line-height: .8rem;
+            text-align: center;
+            font-family:Source Han Sans SC;
+            font-weight:400;
+            color:rgba(255,254,254,1);
+            padding-left: 0rem;
+        }
+    }
+}
